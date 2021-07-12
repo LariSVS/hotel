@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta description="Página de Cadastro">
+    <title>Cadastro TRENTO</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='./cadastro.css'>
+    <!-- Importação Plugin Bootstrap -->
+    <link rel="stylesheet" href="../plugin/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugin/fontawesome/css/all.min.css">
+</head>
+
+<body>
+    <main class="login">
+        <section class="login_panel">
+            <div class="register_content">
+                <div class="register_title">
+                    <i class="fas fa-address-card"></i>
+                    <h2>Cadastro</h2>
+                </div>
+                <div class="register_form">
+                    <form>
+                        <div class="form_content">
+                            <label for="cpf">CPF</label>
+                            <input type="number" class="register_input" id="cpf" placeholder="Digite seu CPF">
+                        </div>
+                        <div class="form_content">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" class="register_input" id="name" placeholder="Digite seu Nome">
+                        </div>
+                        <div class="form_content">
+                            <label for="birthday">Data de Nascimento</label>
+                            <input type="date" class="register_input" id="birthday" placeholder="Digite seu Nascimento">
+                        </div>
+                        <div class="form_content">
+                            <label for="gender">Sexo</label>
+                            <select id="gender" class="register_input">
+                                <option value="choose">Escolha</option>
+                                <option value="male">Masculino</option>
+                                <option value="female">Feminino</option>
+                            </select>
+                        </div>
+                        <div class="form_content">
+                            <label for="e-mail">Email</label>
+                            <input type="email" class="register_input" id="e-mail" placeholder="Digite seu e-mail">
+                        </div>
+                        <div class="form_content">
+                            <label for="pass">Senha</label>
+                            <input type="password" class="register_input" id="pass" placeholder="Digite sua senha">
+                        </div>
+                        <div class="form_content">
+                            <label for="pass_confirmation">Confirme a Senha</label>
+                            <input type="password" class="register_input" id="pass_confirmation"
+                                placeholder="Digite sua senha novamente">
+                        </div>
+                        <div class="form_button">
+                            <button type="submit" id="register_button"><a href="login.html" style="text-decoration: none;color:white">Cadastrar</a></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+<!-- Importando o script do bootstrap -->
+<script src="../plugin/bootstrap/js/bootstrap.min.js"></script>
+<script src="../plugin/fontawesome/js/all.min.js"></script>
+
+</html>
